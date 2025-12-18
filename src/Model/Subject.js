@@ -1,4 +1,4 @@
-class Subject {
+export class Subject {
     constructor(id, name, teacherId) {
         this.id = id;
         this.name = name;
