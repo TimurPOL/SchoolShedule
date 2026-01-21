@@ -1,10 +1,10 @@
 export class Student {
 
-    constructor(id, name, surname, className, age) {
+    constructor(id, name, surname, classId, age) {
         this.id = id;
         this.name = name;
         this.surname = surname;
-        this.className = className;
+        this.classId = classId;
         this.age = age;
         this.marks = [];
     }
