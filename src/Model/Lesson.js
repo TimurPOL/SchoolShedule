@@ -1,8 +1,8 @@
-class Lesson {
-    constructor(id, subjectId,className, date, topic) {
+export class Lesson {
+    constructor(id, subjectId,classId, date, topic) {
         this.id = id;
         this.subjectId = subjectId;
-        this.className = className;
+        this.classId = classId;
         this.date = date;
         this.topic = topic;
         this.homeworkId = null;

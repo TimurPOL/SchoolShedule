@@ -1,4 +1,4 @@
-class SchoolClass {
+export class SchoolClass {
   constructor(id, name, classTeacherId, scheduleId = null) {
     this.id = id;
     this.name = name;

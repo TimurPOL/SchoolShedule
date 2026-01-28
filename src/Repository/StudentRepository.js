@@ -21,5 +21,9 @@ export class StudentRepository{
 
         studentsTable.splice(deletedIndex, 1);
     }
+     
+    getAllStudentByIdClass(classId){
+        return studentsTable.filter(student => student.classId === classId);
+    }
 }
 

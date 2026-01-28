@@ -1,7 +1,7 @@
-class Mark {
+export class Mark {
     constructor(id, studentId, lessonId, value, comment) {
         this.id = id;
-        this.lessonId = studentId;
+        this.studentId = studentId;
         this.lessonId = lessonId;
         this.value = value;
         this.comment = comment;

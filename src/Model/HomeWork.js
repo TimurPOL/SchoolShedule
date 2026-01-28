@@ -1,4 +1,4 @@
-class Homework {
+export class Homework {
     constructor(id,lessonId, dateGiven, dateDue, description) {
         this.id = id;
         this.lessonId = lessonId;

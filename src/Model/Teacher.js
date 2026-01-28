@@ -1,11 +1,12 @@
 export class Teacher {
 
-    constructor(id, name, surname, subjects, classes) {
+    constructor(id, name, surname,age) {
         this.id = id;
         this.name = name;
         this.surname = surname;
-        this.subjects = subjects;
-        this.classes = classes;
+        this.age = age;
+        this.subjects = [];
+        this.classes = [];
     }
 
     getFullName() {
